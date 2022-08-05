@@ -1,6 +1,4 @@
 <style>
-
-
 * {
     padding: 0;
     margin: 0;
@@ -31,11 +29,16 @@ li a:hover {
     color: green;
 }
 
-
-
-h1{
-    text-align: center;
+.logo{
+    float:left;
+    margin:auto;
+    padding:0;
+    
 }
+.background{
+    background-color: yellow;
+}
+
 
 footer {
     text-align: center;
@@ -46,13 +49,24 @@ footer {
     bottom: 0%;
     width: 100%;
 }
-.logo{
-    float:left;
-    margin:auto;
-    padding:0;
-}
 
-.background{
-    background-color: yellow;
+
+
+h1,h2,form,p{
+    text-align: center;
+    text-decoration: solid;
+
 }
-</style>
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+    .cp{
+        text-align:100px;
+    }
+
+
+
+   
+ </style>
